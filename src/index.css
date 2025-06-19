@@ -1,0 +1,40 @@
+/* src/index.css */
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #00D991; /* lwsGreen */
+  --color-deep-dark: rgb(23 24 28);
+  --color-lighter-dark: rgb(39 41 47);
+  --color-card-dark: rgb(30 31 36);
+  --color-border-dark: rgb(63 63 63);
+  --color-text-primary: rgb(243 244 246);
+  --color-text-secondary: #9ca3af;
+
+  /* --- ADD THESE NEW KEYFRAMES --- */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+}
+
+body {
+  background-color: var(--color-deep-dark);
+  color: var(--color-text-primary);
+  font-family: 'Inter', sans-serif;
+}
