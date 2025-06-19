@@ -12,7 +12,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 
 // Import your custom route components
 import PrivateRoute from "./routes/PrivateRoute"; // Adjust path if necessary
-import HomePage from "./pages/ProfilePage";
+import HomePage from "./pages/HomePage";
 
 export default function App() {
   return (
